@@ -1,6 +1,7 @@
-package utils;
+package ru.ykul.utils;
 
 public final class StringUtils {
+    private StringUtils() {}
     public static String reverse (String str) {
 
         int start = 0;
