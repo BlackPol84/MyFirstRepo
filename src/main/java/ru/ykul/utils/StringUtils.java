@@ -3,6 +3,9 @@ package ru.ykul.utils;
 public final class StringUtils {
     private StringUtils() {}
     public static String reverse (String str) {
+        if(str == null || str.isEmpty()) {
+            return "";
+        }
 
         int start = 0;
         int end = str.length() - 1;
